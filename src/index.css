@@ -29,3 +29,14 @@
   height: 78px;
 
 }
+.findContainer::before{
+  content: "";
+  background-image: url('./images/Icon/Find.png');
+  position: absolute;
+  left: 10px;
+  transform: translateY(50%);
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+  background-size: contain;
+}
