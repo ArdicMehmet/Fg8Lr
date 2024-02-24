@@ -1,17 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import { RegisterPage } from './pages/register'
-import { LoginPage } from './pages/login/index'
-import Header from './components/header'
+import './styles/aliceCarosel.css'
+
+import { RegisterPage } from './pages/RegisterPage/index'
+import { LoginPage } from './pages/LoginPage/index'
+import  {HomePage}  from './pages/HomePage/index'
+import { CategoryPage } from './pages/CategoryPage/index'
+import BookDetails from './pages/BookDetailsPage'
 
 
 function App() {
 
   return (
     <>
-      <Header/>
+      <CategoryPage/>
     </>
   )
 }

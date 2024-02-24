@@ -1,0 +1,59 @@
+.general-container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maskPurple {
+    background-image: url("../images/home-bg.png");
+    position: relative;
+  }
+  .maskPurple::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(29, 29, 78,0.4); 
+    opacity: 0.4;
+}
+.logo{
+  width: 120px;
+  height: 78px;
+
+}
+.findContainer::before{
+  content: "";
+  background-image: url('../images/Icon/Find.png');
+  position: absolute;
+  left: 10px;
+  transform: translateY(50%);
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 1366px) {
+    .general-container{
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .general-container{
+        max-width: 768px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .general-container{
+        max-width: 640px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .general-container{
+        max-width: 576px;
+    }
+}

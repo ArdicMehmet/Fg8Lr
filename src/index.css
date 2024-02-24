@@ -10,33 +10,3 @@
   margin: 0;
   box-sizing: border-box;
 }
-.mask1 {
-    background-image: url("./images/home-bg.png");
-    position: relative;
-  }
-  .mask1::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(29, 29, 78,0.4); 
-    opacity: 0.4;
-}
-.logo{
-  width: 120px;
-  height: 78px;
-
-}
-.findContainer::before{
-  content: "";
-  background-image: url('./images/Icon/Find.png');
-  position: absolute;
-  left: 10px;
-  transform: translateY(50%);
-  width: 25px;
-  height: 25px;
-  z-index: 1;
-  background-size: contain;
-}
