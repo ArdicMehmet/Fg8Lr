@@ -4,7 +4,8 @@ import Book from '../../images/Book.png'
 interface Card{
   bookName: string,
   bookAuthor: string,
-  bookPrice: number,
+  bookPrice: string,
+  bookPriceType: string,
   containerFlexType: string,
   imageContainerWidth: string,
   imageContainerPadding?: string,
@@ -29,7 +30,7 @@ function HomeCard(props:Card) {
                   <p className="textAuthor text-gray-900_99">{props.bookAuthor}</p>
                 </div>
                 <div className="priceText">
-                  <p className='text-deep_purple-400 font-bold'>{props.bookPrice} $</p>
+                  <p className='text-deep_purple-400 font-bold'>{props.bookPrice} {props.bookPriceType}</p>
                 </div>
             </div>
         </div>

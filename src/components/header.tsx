@@ -5,7 +5,7 @@ import shopImage from '../images/Shop.png'
 
 function Header() {
   return (
-    <header className='w-full h-[120px] flex general-container'>
+    <header className='w-full h-[120px] flex general-container py-9'>
         <div className="brand flex items-center w-1/6">
             <img className='w-[60px] h-[39px]' src={logo} alt="logo" />
         </div>
