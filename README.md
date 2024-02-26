@@ -2,6 +2,8 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+I used technology what tailwind, typescript, react, react-routes, react-router-dom, axios while i was doing this web sites.
+
 1-) Register Page
 
 ![register](https://github.com/ArdicMehmet/Fg8Lr/assets/48796920/5129bb7d-6e96-48ef-a289-0a54ce8ebecf)
