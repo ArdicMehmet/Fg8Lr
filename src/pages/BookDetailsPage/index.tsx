@@ -13,7 +13,7 @@ interface Book{
   bookPriceType: string,
 }
 
-export function BookDetails(props:Book) {
+export default function BookDetails(props:Book) {
   return (
     <>
         <Header/>

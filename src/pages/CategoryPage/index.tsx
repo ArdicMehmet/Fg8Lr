@@ -3,7 +3,7 @@ import Header from '../../components/header'
 import PageInfo from '../../components/pageInfo'
 import SellCardArea from '../../components/sell/sellCardArea'
 
-export const CategoryPage:React.FC = ()=>{
+export default function CategoryPage(){
   return ( 
   <>
     <Header/>

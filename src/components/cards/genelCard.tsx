@@ -2,10 +2,10 @@ import React from 'react'
 import Book from '../../images/Book.png'
 
 interface Card{
-  bookName: string,
-  bookAuthor: string,
-  bookPrice: string,
-  bookPriceType: string,
+  bookName: string | undefined,
+  bookAuthor: string | undefined,
+  bookPrice: string | undefined,
+  bookPriceType: string | undefined,
   containerFlexType: string,
   imageContainerWidth: string,
   imageContainerPadding?: string,
@@ -14,7 +14,7 @@ interface Card{
   description_justifyContent:string,
   description_alignItems:string,  
   descriptionContainerWidth:string,
- 
+  
 }
 
 function HomeCard(props:Card) {
