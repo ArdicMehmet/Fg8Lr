@@ -2,29 +2,26 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+1-) Register Page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![register](https://github.com/ArdicMehmet/Fg8Lr/assets/48796920/5129bb7d-6e96-48ef-a289-0a54ce8ebecf)
 
-## Expanding the ESLint configuration
+2-) Login Page
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![login](https://github.com/ArdicMehmet/Fg8Lr/assets/48796920/f15d666a-2728-4ad6-aa35-d8144158f303)
 
-- Configure the top-level `parserOptions` property like this:
+3-) Home Page 
+![home](https://github.com/ArdicMehmet/Fg8Lr/assets/48796920/7812102b-c609-4ca5-a408-d6ab3f06c94f)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![home2](https://github.com/ArdicMehmet/Fg8Lr/assets/48796920/4fe72e2f-ceeb-4f4d-888a-fec9d67bce74)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4-) Category Page
+
+![category](https://github.com/ArdicMehmet/Fg8Lr/assets/48796920/4bf3f86e-9cf3-4b24-8437-81c363f38ec8)
+
+5-) Book Details Page
+
+![book-details](https://github.com/ArdicMehmet/Fg8Lr/assets/48796920/d120af1c-c9d8-4f39-ac92-c289630d6515)
+
+
+
